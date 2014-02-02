@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="pref_appversion_summary">0.7.1</string>
+    <string name="pref_appdatum_summary">02.02.2014</string>
+    
+    <string name="app_name">Battleships</string>
+    <string name="neue_anordnung">New game</string>
+    <string name="Hilfetext">This is a classic Battleships. The rules are simple: There are twenty fields to be taken, one red ship (five or four fields, depending on your settings), two green ships (four or three fields), three yellow ships (three or two fields), four purple ships (two or one field). Each ship is completely surrounded by water. Before you start a game, you can move your ships (Can be disabled in settings, should work without problems).</string>
+	<string name="Hilfe">Help</string>
+	<string name="MeinSpielfeld">Opponent</string>
+	<string name="GegnerSpielfeld">My ships</string>
+	<string name="Gewonnen">Victory</string>
+	<string name="GewonnenText">You have won!</string>
+	<string name="Unentschieden">Draw</string>
+	<string name="UnentschiedenText">Nobody won.</string>
+	<string name="Verloren">Lost</string>
+	<string name="VerlorenText">You have lost!</string>
+	<string name="SpielStarten">Start game</string>	
+	<string name="dialogschonunterstuetzt_titel">Already supports development</string>
+	<string name="dialogschonunterstuetzt_text">You have already supported the development of this app. Thank you!</string>
+	
+	<!-- Preferences -->
+	<string name="preferences">Settings</string>
+	<string name="prefCat_allgemein">Generally</string>
+	<string name="pref_verschieben_title">Moving the ships</string>
+	<string name="pref_verschieben_summary">Now it works without problems</string>
+	<string name="pref_schiffesetzen_title">Schiffe selber setzen</string>
+	<string name="pref_schiffesetzen_summary">Die Schiffe vor dem Start des Spieles selber setzen</string>
+	<string name="pref_schiffslaenge_title">Shorter ships</string>
+	<string name="pref_schiffslaenge_summary">If activated: ships are 1 to 4 fields; if not activated: ships are 2 to 5 field</string>
+	<string name="pref_googleanalytics_title">Google Analytics</string>
+	<string name="pref_googleanalytics_summary">Google Analytics provides me with more information about the screen sizes used</string>
+	<string name="prefCat_inapp">In-App Purchase</string>
+	<string name="pref_spende_title">Support development of this app?</string>
+	<string name="pref_kaufen_title">Support development of this app</string>
+	<string name="pref_kaufen_summary">Incl. future features</string>
+	<string name="prefCat_about">About Battleships</string>
+	<string name="pref_programmierer_title">Programmer</string>
+	<string name="pref_programmierer_summary">&#169; Stefan Reinsperger</string>
+	<string name="pref_appversion_title">App version</string>
+	<string name="pref_appdatum_title">Date of the version</string>
+	<string name="pref_bewertung_title">Review on Google Play</string>
+	<string name="pref_bewertung_summary">Please rate this app</string>
+	<string name="pref_email_title">Report a problem</string>
+	<string name="pref_email_summary">Contact the developer - Send Feedback</string>
+    
+</resources>

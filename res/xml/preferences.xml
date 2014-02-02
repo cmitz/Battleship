@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <PreferenceCategory
+        android:title="@string/prefCat_allgemein" >
+        
+        <CheckBoxPreference
+        	android:key="pref_verschieben"
+        	android:title="@string/pref_verschieben_title"
+        	android:summary="@string/pref_verschieben_summary"
+        	android:defaultValue="true" />
+        <!-- <CheckBoxPreference
+            android:key="pref_schiffesetzen"
+            android:title="@string/pref_schiffesetzen_title"
+            android:summary="@string/pref_schiffesetzen_summary"
+            android:defaultValue="false" /> -->
+        <CheckBoxPreference
+		    android:key="pref_schiffslaenge"
+		    android:title="@string/pref_schiffslaenge_title"
+		    android:summary="@string/pref_schiffslaenge_summary"
+		    android:defaultValue="false" />
+        <CheckBoxPreference
+        	android:key="pref_googleanalytics"
+        	android:title="@string/pref_googleanalytics_title"
+        	android:summary="@string/pref_googleanalytics_summary"
+        	android:defaultValue="true" />
+        
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:title="@string/prefCat_inapp" >
+        
+        <CheckBoxPreference 
+            android:title="@string/pref_spende_title"
+            android:key="pref_spende"
+            android:defaultValue="false"
+            android:enabled="false" />
+        <Preference 
+            android:summary="@string/pref_kaufen_summary"
+            android:title="@string/pref_kaufen_title"
+            android:enabled="true"
+            android:key="pref_kaufen" />
+        
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:title="@string/prefCat_about" >
+        
+        <Preference 
+            android:summary="@string/pref_programmierer_summary"
+            android:title="@string/pref_programmierer_title" />
+        <Preference 
+            android:summary="@string/pref_appversion_summary"
+            android:title="@string/pref_appversion_title" />
+        <Preference 
+            android:summary="@string/pref_appdatum_summary"
+            android:title="@string/pref_appdatum_title" />
+        <Preference 
+            android:summary="@string/pref_bewertung_summary"
+            android:title="@string/pref_bewertung_title" >
+        	<intent android:action="android.intent.action.VIEW"
+            	android:data="market://details?id=com.reinsperger.schifferlversenken" />
+        </Preference>
+        <Preference 
+            android:summary="@string/pref_email_summary"
+            android:title="@string/pref_email_title">
+        	<intent android:action="android.intent.action.SENDTO"
+            	android:data="mailto:reinsperger.stefan@gmail.com?subject=Battleship" />
+        </Preference>
+        
+    </PreferenceCategory>
+    
+</PreferenceScreen>

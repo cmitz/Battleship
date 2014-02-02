@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/neue_anordnung"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/neue_anordnung" />
+    
+    <item
+        android:id="@+id/hilfe"
+        android:orderInCategory="101"
+        android:showAsAction="never"
+        android:title="@string/Hilfe" />
+    
+    <item
+        android:id="@+id/settings"
+        android:orderInCategory="102"
+        android:showAsAction="never"
+        android:title="@string/preferences" />
+
+</menu>

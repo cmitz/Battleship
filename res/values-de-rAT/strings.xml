@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Schifferl versenken</string>
+    <string name="neue_anordnung">Neues Spiel</string>
+    <string name="Hilfetext">Dies ist ein klassisches Schifferl versenken. Die Regeln sind ganz einfach: Es gibt zwanzig Felder die zu treffen sind, ein rotes Schiff (Fünf oder vier Felder, je nachdem welche Version in den Einstellungen aktiviert ist), zwei grüne Schiffe (je vier oder drei Felder), drei gelbe Schiffe (je drei oder zwei Felder), vier lilane Schiffe (je zwei oder ein Feld). Jedes Schiff wird komplett von Wasser umgeben. Bevor du mit einem Spiel beginnst kannst du deine Schiffe versetzen (Kann in den Einstellungen deaktiviert werden, sollte ab jetzt ohne Probleme funktionieren).</string>
+	<string name="Hilfe">Hilfe</string>
+	<string name="MeinSpielfeld">Gegner</string>
+	<string name="GegnerSpielfeld">Meine Schiffe</string>
+	<string name="Gewonnen">Sieg</string>
+	<string name="GewonnenText">Du hast gewonnen!</string>
+	<string name="Unentschieden">Unentschieden</string>
+	<string name="UnentschiedenText">Keiner hat gewonnen.</string>
+	<string name="Verloren">Verloren</string>
+	<string name="VerlorenText">Du hast verloren!</string>
+	<string name="SpielStarten">Spiel starten</string>	
+	<string name="dialogschonunterstuetzt_titel">Entwicklung schon unterstützt</string>
+	<string name="dialogschonunterstuetzt_text">Du hast die Entwicklung dieser App bereits unterstützt. Vielen Dank!</string>
+	
+	<!-- Preferences -->
+	<string name="preferences">Einstellungen</string>
+	<string name="prefCat_allgemein">Allgemein</string>
+	<string name="pref_verschieben_title">Verschieben der Schiffe</string>
+	<string name="pref_verschieben_summary">Funktioniert ab Version 0.7 ohne Probleme</string>
+	<string name="pref_schiffesetzen_title">Schiffe selber setzen</string>
+	<string name="pref_schiffesetzen_summary">Die Schiffe vor dem Start des Spieles selber setzen</string>
+	<string name="pref_schiffslaenge_title">Kürzere Schiffe</string>
+	<string name="pref_schiffslaenge_summary">Wenn aktiviert: Schiffe sind 1 bis 4 Felder groß; Wenn deaktiviert: Schiffe sind 2 bis 5 Felder groß</string>
+	<string name="pref_googleanalytics_title">Google Analytics</string>
+	<string name="pref_googleanalytics_summary">Google Analytics bietet mir mehr Infos zu den verwendeten Bildschirmgrößen</string>
+	<string name="prefCat_inapp">In-App Kauf</string>
+	<string name="pref_spende_title">Entwicklung dieser App unterstützt?</string>
+	<string name="pref_kaufen_title">Entwicklung dieser App unterstützen</string>
+	<string name="pref_kaufen_summary">Inkl. zukünftiger Features</string>
+	<string name="prefCat_about">Über Schifferl versenken</string>
+	<string name="pref_programmierer_title">Programmierer</string>
+	<string name="pref_appversion_title">App-Version</string>
+	<string name="pref_appdatum_title">Datum der Version</string>
+	<string name="pref_bewertung_title">Bewertung auf Google Play</string>
+	<string name="pref_bewertung_summary">Bitte bewerte diese App</string>
+	<string name="pref_email_title">Problem melden</string>
+	<string name="pref_email_summary">Kontakt mit dem Entwickler aufnehmen - Feedback geben</string>
+    
+</resources>

@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:id="@+id/Linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    
+    <com.reinsperger.schifferlversenken.DrawView
+        android:id="@+id/draw1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+   
+
+    <!-- <com.google.ads.AdView android:id="@+id/werbung"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         ads:adUnitId="a151754d6631cc8"
+                         ads:adSize="BANNER"
+                         ads:testDevices="TEST_EMULATOR"
+                         ads:loadAdOnCreate="true"/> -->
+
+</LinearLayout>
